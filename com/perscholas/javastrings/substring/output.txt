@@ -1,0 +1,177 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        
+        Scanner sc=new Scanner(System.in);
+        String A=sc.next();
+        String B=sc.next();
+	sc.close();
+        /* Enter your code here. Print output to STDOUT. */
+        System.out.println(A.length()+B.length());
+        if(A.compareTo(B)<=0)
+        {
+            System.out.println("No");
+        }
+        else
+        {
+            System.out.println("Yes");
+        }
+        String s1 = A.substring(0, 1).toUpperCase();
+        String s2 = B.substring(0, 1).toUpperCase();
+        System.out.println(s1 + A.substring(1)+ " "+ s2 + B.substring(1));
+        
+    }
+}
+
+Success
+
+Input (stdin)
+hello
+java
+
+Expected Output
+9
+No
+Hello Java
+
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        String S = in.next();
+        int start = in.nextInt();
+        int end = in.nextInt();
+	in.close();
+        System.out.println(S.substring(start, end));
+    }
+}
+
+Compiler Message
+Success
+
+Input (stdin)
+Helloworld
+3 7
+
+Expected Output
+lowo
+
+t java.util.Scanner;
+
+public class Solution {
+
+    public static String getSmallestAndLargest(String s, int k) {
+        String smallest = "";
+        String largest = "";
+        
+        // Complete the function
+        // 'smallest' must be the lexicographically smallest substring of length 'k'
+        // 'largest' must be the lexicographically largest substring of length 'k'
+        smallest = largest = s.substring(0, k);
+
+        for (int i=1; i<s.length()-k+1; i++) {
+            String substr = s.substring(i, i+k);
+            if (smallest.compareTo(substr) > 0)
+                smallest = substr;
+            if (largest.compareTo(substr) < 0)
+                largest = substr;
+        }
+        return smallest + "\n" + largest;
+    }
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        String s = scan.next();
+        int k = scan.nextInt();
+        scan.close();
+      
+        System.out.println(getSmallestAndLargest(s, k));
+    }
+}
+
+
+Compiler Message
+Success
+
+Input (stdin)
+welcometojava
+3
+
+Expected Output
+ava
+wel
+
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        
+        Scanner sc=new Scanner(System.in);
+        String A=sc.next();
+        sc.close();
+        /* Enter your code here. Print output to STDOUT. */
+        String reversed = new StringBuilder(A).reverse().toString();
+        System.out.println(A.equals(reversed) ? "Yes" : "No");
+    }
+}
+
+Compiler Message
+Success
+
+Input (stdin)
+madam
+
+Expected Output
+Yes
+	
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        if (!scan.hasNext()){
+            System.out.println(0);
+        }
+        else{
+            
+        String s = scan.nextLine();
+        // Write your code here.
+        String[]a = s.trim().split("[ !,?._'@]+");
+        ArrayList<String>listOfStrings =new ArrayList<String>(Arrays.asList(a));
+        System.out.println(listOfStrings.size());
+      
+        for(String str:listOfStrings){
+            System.out.println(str);
+        }    
+        }
+        scan.close();
+    }
+}
+
+He is a very very good boy, isn't he?
+
+10
+He
+is
+a
+very
+very
+good
+boy
+isn
+t
+he
+
