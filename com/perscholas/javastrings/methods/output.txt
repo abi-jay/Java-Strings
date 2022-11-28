@@ -1,0 +1,46 @@
+str1 length:	4
+Empty length:	0
+Java length:	4
+Java\n length:	5
+Learn Java length:	10
+s1 empty:	true
+s2 empty:	false
+Before Trim:	  hello   how are you
+After Trim:	hellohow are you
+str lower:	hello how are you?
+str upper:	HELLO HOW ARE YOU
+Concat Learn Java:	Learn Java
+Concat JavaLearn:	JavaLearn 
+Concat helloLearners:	helloLearners
+Welcome to Java
+Chapter2
+SupplementB
+result = [a, b, c, d:e]
+The first character in the message is W
+Equal:	0
+Lower:	-1
+Greater:	2
+Substring:	java
+Index of s:	6
+Index of J:	0
+Last occurrence of a:	3
+Not in String:	-1
+Last occurrence of ava:	1
+Not in String:	-1
+Learn Java contains Java:	true
+Learn Java contains Python:	false
+Learn Java contains "":	true
+Replace a by z:	zbc cbz
+Replace L by J:	Java
+Replace 4 by J:	Hello
+Replace C++ by Java in abc cba:	abc cba
+Replace aa by zz in aa bb aa zz:	zz bb zz zz
+Replace C++ by C in Java:	Java
+PerScholas equals PerScholas:	true
+PerScholas equals PerScholas:	true
+PerScholas equals Teksystem:	false
+Perscholas equals same instance Perscholas:	true
+Perscholas equals nonpool instance Perscholas:	false
+Compare Perscholas and Perscholas	0
+Compare Perscholas and Perscholas	0
+Compare Perscholas and Perscholas	0
