@@ -1,0 +1,6 @@
+Enter three words separated by spaces: home sweet family
+s1 is home
+s2 is sweet
+s3 is family
+Enter a character: y
+The character entered is y
